@@ -6,5 +6,7 @@
             :year 2017
             :key "mit"}
   :dependencies [[org.clojure/clojure "1.8.0"]
+                 [ring/ring-core "1.6.1"]
                  [hiccup "1.0.5"]
-                 [cheshire "5.7.1"]])
+                 [cheshire "5.7.1"]]
+  :pedantic? :abort)
