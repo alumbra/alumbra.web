@@ -5,7 +5,7 @@
 
 ;; ## CDNs
 
-(defn- include
+(defn include
   [file]
   (if (string/ends-with? file ".css")
     (include-css file)
