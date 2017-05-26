@@ -1,4 +1,5 @@
 (ns alumbra.web.graphiql-workspace
+  "Ring handler for exposing the [GraphiQL Workspace](https://github.com/OlegIlyenko/graphiql-workspace)"
   (:require [alumbra.web.common :as common]
             [hiccup.core :as hiccup]
             [hiccup.page :refer [html5]]))
@@ -36,7 +37,7 @@
 
 ;; ## Render
 
-(defn render
+(defn- render
   [options]
   (hiccup/html
     (html5

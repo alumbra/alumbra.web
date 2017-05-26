@@ -1,4 +1,5 @@
 (ns alumbra.web.graphql-voyager
+  "Ring handler for exposing the [GraphQL Voyager](https://github.com/APIs-guru/graphql-voyager)"
   (:require [alumbra.web.common :as common]
             [ring.middleware.resource :refer [wrap-resource]]
             [hiccup.core :as hiccup]
